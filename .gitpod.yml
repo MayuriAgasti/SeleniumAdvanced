@@ -1,0 +1,15 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup Maven & Run Tests
+    init: |
+      mvn -q -DskipTests clean install
+    command: |
+      mvn -q test
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
+    - redhat.java
+    - vscjava.vscode-maven
