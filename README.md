@@ -12,5 +12,5 @@ add required dependencies<br/>
 2. maven-surefire-plugin<br/>
 3. mvn plugin<br/>
 
-####Run testcases
+####Run testcases <br/>
 mvn clean test
