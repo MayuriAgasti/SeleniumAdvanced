@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium-Java-Framework" parallel="false">
+  <listeners>
+    <listener class-name="com.example.tests.listeners.TestListener"/>
+  </listeners>
+  <test name="Regression">
+    <classes>
+      <class name="com.example.tests.cases.LoginTest"/>
+    </classes>
+  </test>
+</suite>
